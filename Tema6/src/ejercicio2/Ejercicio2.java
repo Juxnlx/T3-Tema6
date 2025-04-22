@@ -43,7 +43,7 @@ public class Ejercicio2 {
 			}
 
 			// Calculamos la media aritmética, la suma entre los números que hay.
-			media = suma / cont;
+			media = (double) suma / cont;
 
 			// Mostramos la suma y la media de los números leidos del fichero.
 			System.out.println("Suma: " + suma);
