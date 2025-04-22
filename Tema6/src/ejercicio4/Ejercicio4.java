@@ -15,6 +15,7 @@ public class Ejercicio4 {
 
 		// Creamos el Scanner para leer las frases introducidas por el usuario.
 		Scanner sc = new Scanner(System.in);
+	
 
 		// Capturamos el codigo susceptible a lanzar alguna excepción. Capturamos en el
 		// try el BufferedWriter para que se cierre cuando termine de ejecutarse el
