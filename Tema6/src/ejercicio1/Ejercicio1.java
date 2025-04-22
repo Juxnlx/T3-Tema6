@@ -11,15 +11,15 @@ public class Ejercicio1 {
 		// reales.
 		Scanner sc;
 
-		// Creamos la variable numero como int para almacenar el número que se encuentre
+		// Creamos la variable numero como double para almacenar el número que se encuentre
 		// en el fichero.
-		int numero;
+		double numero;
 
-		// Creamos la variable suma como int para almacenar la suma de todos los números
+		// Creamos la variable suma como double para almacenar la suma de todos los números
 		// que se encuentren en el fichero.
-		int suma = 0;
+		double suma = 0;
 
-		// Creamos la variable media como int para almacenar la media de los números
+		// Creamos la variable media como double para almacenar la media de los números
 		// almacenados en el fichero.
 		double media;
 
@@ -32,10 +32,10 @@ public class Ejercicio1 {
 			// el fichero a leer.
 			sc = new Scanner(new FileReader("src\\ejercicio1\\NumerosReales.txt"));
 
-			// Comprobamos si el siguiente caracter a leer es un entero si es así...
-			while (sc.hasNextInt()) {
+			// Comprobamos si el siguiente caracter a leer es un real si es así...
+			while (sc.hasNextDouble()) {
 				// Leemos el número y lo almacenamos en la variable numero.
-				numero = sc.nextInt();
+				numero = sc.nextDouble();
 				// Almacenamos en la variable suma la suma de los números que vamos leyendo.
 				suma += numero;
 				// Incrementamos el contador en +1 cada vez aparece un número.
