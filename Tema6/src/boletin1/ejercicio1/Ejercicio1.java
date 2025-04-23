@@ -30,7 +30,7 @@ public class Ejercicio1 {
 		try {
 			// Declaramos el Scanner con el FileReader, indicando la ruta donde se encuentra
 			// el fichero a leer.
-			sc = new Scanner(new FileReader("src\\boletin1.ejercicio1\\NumerosReales.txt"));
+			sc = new Scanner(new FileReader("src\\boletin1\\ejercicio1\\NumerosReales.txt"));
 
 			// Comprobamos si el siguiente caracter a leer es un real si es así...
 			while (sc.hasNextDouble()) {
