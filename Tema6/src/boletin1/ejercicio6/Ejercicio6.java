@@ -47,7 +47,7 @@ public class Ejercicio6 {
 		// Capturamos el codigo susceptible a lanzar alguna excepción. Capturamos en el
 		// try el Scanner para que se cierre cuando termine de ejecutarse el
 		// bloque try.
-		try (Scanner sc = new Scanner(new FileReader("src\\boletin1.ejercicio6\\NumerosEntDesor.txt"))) {
+		try (Scanner sc = new Scanner(new FileReader("src\\boletin1\\ejercicio6\\NumerosEntDesor.txt"))) {
 
 			// Comprobamos si existen números enteros en el documento.
 			while (sc.hasNextInt()) {
@@ -77,7 +77,7 @@ public class Ejercicio6 {
 		// Capturamos el codigo susceptible a lanzar alguna excepción. Capturamos en el
 		// try el BufferedWriter para que se cierre cuando termine de ejecutarse el
 		// bloque try.
-		try (BufferedWriter bw = new BufferedWriter(new FileWriter("src\\boletin1.ejercicio6\\NumerosEntOrd.txt", true))) {
+		try (BufferedWriter bw = new BufferedWriter(new FileWriter("src\\boletin1\\ejercicio6\\NumerosEntOrd.txt", true))) {
 
 			// Recorremos la lista para ir añadiendo cada número a un nuevo fichero.
 			for (int numeros : num) {
