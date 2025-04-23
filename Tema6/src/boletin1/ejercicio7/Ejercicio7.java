@@ -1,4 +1,4 @@
-package ejercicio7;
+package boletin1.ejercicio7;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -14,7 +14,7 @@ public class Ejercicio7 {
 	// número de contacto.
 	static TreeMap<String, Integer> agenda = new TreeMap<String, Integer>();
 
-	public static final String FICHERO = "src\\ejercicio7\\agenda.txt";
+	public static final String FICHERO = "src\\boletin1.ejercicio7\\agenda.txt";
 
 	public static void main(String[] args) {
 
