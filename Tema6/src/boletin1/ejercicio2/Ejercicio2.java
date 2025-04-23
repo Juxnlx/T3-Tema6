@@ -30,7 +30,7 @@ public class Ejercicio2 {
 		try {
 			// Declaramos el Scanner con el FileReader, indicando la ruta donde se encuentra
 			// el fichero a leer.
-			sc = new Scanner(new FileReader("src\\boletin1.ejercicio2\\Enteros.txt"));
+			sc = new Scanner(new FileReader("src\\boletin1\\ejercicio2\\Enteros.txt"));
 
 			// Comprobamos si el siguiente caracter a leer es un entero si es así...
 			while (sc.hasNextInt()) {
