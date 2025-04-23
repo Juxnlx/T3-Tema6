@@ -34,7 +34,7 @@ public class Ejercicio3 {
 
 			// Creamos el BufferedReader alumnos para leer el fichero "Alumnos.txt" y poder
 			// acceder a esa información.
-			BufferedReader alumnos = new BufferedReader(new FileReader("src\\boletin1.ejercicio3\\Alumnos.txt"));
+			BufferedReader alumnos = new BufferedReader(new FileReader("src\\boletin1\\ejercicio3\\Alumnos.txt"));
 
 			// En la variable linea almacenamos la linea entera que acabamos de leer.
 			linea = alumnos.readLine();
