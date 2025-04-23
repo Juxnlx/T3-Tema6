@@ -21,7 +21,7 @@ public class Ejercicio5 {
 		// Capturamos el codigo susceptible a lanzar alguna excepción. Capturamos en el
 		// try el BufferedWriter para que se cierre cuando termine de ejecutarse el
 		// bloque try.
-		try (BufferedWriter frasesUsuario = new BufferedWriter(new FileWriter("src\\boletin1.ejercicio5\\datos.txt", true))) {
+		try (BufferedWriter frasesUsuario = new BufferedWriter(new FileWriter("src\\boletin1\\ejercicio5\\datos.txt", true))) {
 
 			// Le pedimos al usuario que introduzca un nombre y la leemos.
 			System.out.println("Introduce un nombre: ");
