@@ -51,6 +51,9 @@ public class Ejercicio1 {
 					contPalabras++;
 				}
 
+				// Contamos como caracter los espacios en blanco tambien.
+				contCaracter += datos.length;
+
 				// Incrementamos en +1 las lineas.
 				contLineas++;
 
