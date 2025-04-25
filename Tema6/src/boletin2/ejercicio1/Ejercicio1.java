@@ -7,6 +7,8 @@ import java.io.IOException;
 
 public class Ejercicio1 {
 
+	// Creamos la constante FICHERO como final para almacenar la ruta del fichero
+	// "Carta.txt".
 	public static final String FICHERO = "src\\boletin2\\ejercicio1\\Carta.txt";
 
 	public static void main(String[] args) {
