@@ -157,6 +157,9 @@ public class Ejercicio8 {
 			// Creamos la variable linea como String para almacenar la linea del fichero que
 			// estamos leyendo.
 			String linea = br.readLine();
+			
+			//Leemos la siguiente linea para obviar el encabezado.
+			linea = br.readLine();
 
 			// Creamos un array para almacenar en posiciones la distinta información con la
 			// que cuenta la linea, en este caso la fecha y la temperatura max y min.
