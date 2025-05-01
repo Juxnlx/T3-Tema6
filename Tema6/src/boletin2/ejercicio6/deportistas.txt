@@ -1,0 +1,5 @@
+Nombre									Edad            Peso         Estatura
+JuanLuis Barrionuevo Risquez			 20             80,5           1,66
+María Rodriguez Rodriguez			     25             90,1           1,70
+Ana Pérez						       	 30             65,2           1,80
+Lucía Barrionuevo Risquez   			 17             70,5           1,90
